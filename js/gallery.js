@@ -1,6 +1,6 @@
 function upDate(previewPic) {
     console.log(previewPic);
-    document.getElementById("image").style.backgroundImage = previewPic.src;
+    document.getElementById("image").style.backgroundImage = url(previewPic.src);
     document.getElementById("image").innerHTML = previewPic.alt;
 /* In this function you should 
     1) change the url for the background image of the div with the id = "image" 
